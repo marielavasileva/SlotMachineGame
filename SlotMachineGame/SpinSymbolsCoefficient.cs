@@ -2,10 +2,9 @@
 using System.Collections.Generic;
 using System.Linq;
 
-
 namespace SlotMachineGame
 {
-   public class SpinSymbolsCoefficient
+    public class SpinSymbolsCoefficient
     {
         public const string Apple = "A";
         public const string Banana = "B";
@@ -16,7 +15,7 @@ namespace SlotMachineGame
         public double CalculateCurrentCoefficient()
         {
             var randomNumberGenerator = new Random();
-           
+
             var positionsList = new List<string>();
             positionsList.AddRange(new List<string>
             {
@@ -64,7 +63,7 @@ namespace SlotMachineGame
                 positionSymbol == Banana ? 0.6 :
                 positionSymbol == Pineapple ? 0.8 : 0.0;
 
-            CurrentCoefficient =+ currentCoefficient;
+            CurrentCoefficient = +currentCoefficient;
             return CurrentCoefficient;
         }
 

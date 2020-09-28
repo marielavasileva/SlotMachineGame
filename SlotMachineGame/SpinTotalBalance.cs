@@ -1,10 +1,10 @@
 ﻿namespace SlotMachineGame
 {
-   public class SpinTotalBalance
-   {
-       public double TotalCoefficient ;
-       public double TotalPlayerBalance ;
-       public SpinSymbolsCoefficient SpinSymbolsCoefficient;
+    public class SpinTotalBalance
+    {
+        public double TotalCoefficient;
+        public double TotalPlayerBalance;
+        public SpinSymbolsCoefficient SpinSymbolsCoefficient;
 
         public double CalculateTotalPlayerBalance(double depositAmount, double stakeAmount)
         {
@@ -17,12 +17,12 @@
                 TotalCoefficient += currentCoefficient;
             }
 
-            TotalPlayerBalance = (depositAmount-stakeAmount) + (TotalCoefficient * stakeAmount);
+            TotalPlayerBalance = (depositAmount - stakeAmount) + (TotalCoefficient * stakeAmount);
 
             SlotGameVisualizer.PrintPlayerWinAmount(TotalCoefficient, stakeAmount);
             SlotGameVisualizer.PrintPlayerTotalBalance(TotalPlayerBalance);
 
             return TotalPlayerBalance;
         }
-   }
+    }
 }

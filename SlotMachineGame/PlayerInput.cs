@@ -17,7 +17,6 @@ namespace SlotMachineGame
 
             return depositAmount;
         }
-
         public double EnterStakeAmount(double depositAmount)
         {
             Console.WriteLine("Enter stake amount: ");
