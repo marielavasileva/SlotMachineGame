@@ -23,7 +23,7 @@ namespace SlotMachineGame
             double stakeAmount = double.TryParse(Console.ReadLine(), out stakeAmount) ? stakeAmount : 0.0;
             if (stakeAmount == 0.0 || stakeAmount > depositAmount)
             {
-                Console.WriteLine("Enter valid deposit money:");
+                Console.WriteLine("Enter valid stake amount:");
                 stakeAmount = double.TryParse(Console.ReadLine(), out stakeAmount) ? stakeAmount : 0.0;
             }
             return stakeAmount;

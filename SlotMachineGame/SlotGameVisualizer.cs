@@ -18,7 +18,7 @@ namespace SlotMachineGame
 
         public static void PrintPlayerTotalBalance(double totalPlayerBalance)
         {
-            Console.WriteLine($"Current balance is: {totalPlayerBalance}");
+            Console.WriteLine($"Current balance is: {totalPlayerBalance:F0}");
         }
     }
 }

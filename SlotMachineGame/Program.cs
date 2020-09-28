@@ -32,6 +32,7 @@ namespace SlotMachineGame
 
                 if (Console.ReadLine() != "y")
                 {
+                    Console.WriteLine("You enter unvalid input");
                     break;
                 }
             }
