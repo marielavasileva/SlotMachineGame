@@ -18,7 +18,14 @@ namespace SlotMachineGame
 
         public static void CreateSlots()
         {
+            Console.WriteLine("Testingggg merging");
+
+        }
+
+        public static string CreateSlotsString()
+        {
             Console.WriteLine("Test merging");
+            return "test";
 
         }
 
