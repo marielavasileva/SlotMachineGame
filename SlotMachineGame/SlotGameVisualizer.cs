@@ -26,6 +26,7 @@ namespace SlotMachineGame
         public static string CreateSlotsString()
         {
             Console.WriteLine("Test merging");
+            Console.WriteLine("testt");
             return "test";
 
         }
