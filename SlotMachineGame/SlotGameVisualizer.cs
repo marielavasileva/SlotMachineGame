@@ -16,9 +16,15 @@ namespace SlotMachineGame
             Console.WriteLine($"You have won: {(totalCoefficient * stakeAmount):F0}");
         }
 
+        public static void CreateSlots()
+        {
+            Console.WriteLine("Test merging");
+
+        }
+
         public static void PrintPlayerTotalBalance(double totalPlayerBalance)
         {
             Console.WriteLine($"Current balance is: {totalPlayerBalance:F0}");
-        }
+        }       
     }
 }
