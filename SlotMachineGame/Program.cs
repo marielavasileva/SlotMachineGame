@@ -25,7 +25,7 @@ namespace SlotMachineGame
                     Console.WriteLine("You are out of cash. Game over.");
                     break;
                 }
-
+                //to do
                 depositAmount = totalPlayerBalance;
 
                 Console.WriteLine("Play Slots? y/n");
